@@ -9,7 +9,7 @@ def mostCommonWord(paragraph, banned):
     # Split the string
     p = p.split()
 
-    print(p)
+    #print(p)
 
     if len(banned) != 0:
         for i in banned:
@@ -17,7 +17,7 @@ def mostCommonWord(paragraph, banned):
             while i in p:
                 p.remove(i)
 
-    print(p)
+    #print(p)
 
     # Make a dictionary to find the most common word
     counts = dict()
