@@ -13,7 +13,7 @@ def mostCommonWord(paragraph, banned):
 
     if len(banned) != 0:
         for i in banned:
-            print(i)
+            #print(i)
             while i in p:
                 p.remove(i)
 
