@@ -1,3 +1,5 @@
+# Actually, this code exceed the time limit for the test case from leetcode...
+
 def groupAnagrams(strs):
     # Sort each word to make a norm
     word_srt_lst = [str(sorted(i)) for i in strs]
