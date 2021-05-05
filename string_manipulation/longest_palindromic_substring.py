@@ -1,3 +1,5 @@
+# This is solution from textbook.
+
 def longestPalindrome(s):
     def expand(left, right):
         while left >= 0 and right < len(s) and s[left] == s[right]:
