@@ -25,7 +25,9 @@ print(volume)
 def trap(height):
     if not height:
         return 0
+    
     volume = 0
+    
     left = 0
     right = len(height) - 1
     left_max = height[left]
