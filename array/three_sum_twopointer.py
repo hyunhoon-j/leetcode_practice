@@ -40,3 +40,5 @@ def threeSum(nums):
     return results
 
 print(threeSum([-1,0,1,2,-1,-4]))
+
+# Answer: [[-1, -1, 2], [-1, 0, 1]]
