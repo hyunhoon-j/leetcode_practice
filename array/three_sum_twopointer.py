@@ -4,6 +4,7 @@ def threeSum(nums):
     results = list()
     # Sort numbers in a list
     nums.sort()
+    # A result of the sorted nums in here: [-4, -1, -1, 0, 1, 2]
 
     for i in range(len(nums) - 2):
         # Skip the duplicated number
