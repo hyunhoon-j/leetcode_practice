@@ -6,12 +6,14 @@ def isPalindrome(head):
         return True
 
     node = head
-
+    
+    # make a python list which has all values of linked list
     while node is not None:
         q.append(node.val)
         node = node.next
-
-    while len(q) > 1: # comare the first element of the list to the last element of the list repeatedly
+        
+    # palindrome check
+    while len(q) > 1: # compare the first element of the list to the last element of the list repeatedly
         if q.pop(0) != q.pop(): # q.pop(0) pop the first element of q, q.pop() pop the last element of q
             return False
 
