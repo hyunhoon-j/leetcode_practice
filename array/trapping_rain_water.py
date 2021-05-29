@@ -4,13 +4,13 @@ def trap(height):
     
     volume = 0 # This is the amount of water
     
-    left = 0# Index from left
-    right = len(height) - 1 # In here, right is an index
+    left = 0 # Index from left
+    right = len(height) - 1 # In here, variable 'right' is an index
     
     left_max = height[left] # This is an actual element in the list
     right_max = height[right] # This is also an actual element in the list
 
-    while left < right: # If two pointer meets, this program ends
+    while left < right: # If two pointers meet, this program would end
         left_max = max(height[left], left_max) # This is to get the max element in the list from left to right
         right_max = max(height[right], right_max) # This is to get the max element in the list from right to left
 
