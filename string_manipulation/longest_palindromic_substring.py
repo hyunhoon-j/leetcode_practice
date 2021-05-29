@@ -1,4 +1,4 @@
-# This is solution from textbook.
+# This is a solution from the textbook.
 
 def longestPalindrome(s):
     def expand(left, right):
