@@ -2,7 +2,7 @@
 
 def arrayPairSum(nums):
     sum = 0
-    pair = list() # We are going to focus on only one pair composed by the numbers from sorted order of the list
+    pair = list() # We are going to focus on only one pair composed of the numbers from the sorted list
     nums.sort() # [1, 2, 2, 5, 6, 6]
 
     for n in nums:
