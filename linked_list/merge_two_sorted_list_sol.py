@@ -34,3 +34,4 @@ while result is not None:
     result = result.next
 
 print(q)
+# Answer: [1, 1, 2, 3, 4, 4]
