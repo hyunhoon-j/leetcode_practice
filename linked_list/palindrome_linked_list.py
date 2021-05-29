@@ -14,7 +14,7 @@ def isPalindrome(head):
         
     # palindrome check
     while len(q) > 1: # compare the first element of the list to the last element of the list repeatedly
-        if q.pop(0) != q.pop(): # q.pop(0) pop the first element of q, q.pop() pop the last element of q
+        if q.pop(0) != q.pop(): # q.pop(0) pops the first element of q, q.pop() pops the last element of q
             return False
 
     return True
