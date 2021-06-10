@@ -13,15 +13,19 @@ t2.next = t2_second
 t2_second.next = t2_third
 
 def reverse_list(l_list):
+    
     curr = l_list
     prev = None
 
     while curr:
         next, curr.next = curr.next, prev
         prev, curr = curr, next
+    
     return prev
 
+
 def list_to_int(q_list):
+    
     q = str()
     s = q_list
 
